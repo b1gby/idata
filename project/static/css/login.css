@@ -103,3 +103,10 @@
     padding: 0px;
     width: 100%;
 }
+
+.xmu{
+    width: 100%;
+    height: 48px;
+    border-style: none;
+    background: url("../images/xmu_login.png") no-repeat center top;
+}
