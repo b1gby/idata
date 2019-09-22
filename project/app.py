@@ -8,6 +8,11 @@ def hello_world():
     return redirect('login')
 
 
+@app.route('/welcome')
+def welcome():
+    return render_template('welcome.html')
+
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'GET':
