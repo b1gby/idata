@@ -24,7 +24,7 @@
 </head>
 <body >
     <hr class="layui-bg-black">
-
+<!--数据分类标签栏-->
     <div class="layui-row">
         <div class="layui-card">
              <div class="layui-col-md2 layui-card-header">
@@ -38,21 +38,85 @@
                 </span>
             </div>
         </div>
+<!--        分割线-->
         <hr class="layui-bg-black">
+<!--        数据排序标签栏-->
              <fieldset class="layui-elem-field layui-field-title">
                 <legend>排序</legend>
                 <div class="layui-field-box">
-                    <a class="layui-btn layui-btn-radius layui-btn-primary">综合排序</a>
-                    <a class="layui-btn layui-btn-radius layui-btn-primary">更新时间</a>
-                    <a class="layui-btn layui-btn-radius layui-btn-primary">使用人数</a>
+                    <a class="layui-btn layui-btn-radius layui-btn-primary" href="">综合排序</a>
+                    <a class="layui-btn layui-btn-radius layui-btn-primary" href="">更新时间</a>
+                    <a class="layui-btn layui-btn-radius layui-btn-primary" href="">使用人数</a>
 
-                    <a style="float: right">
+                    <a class="layui-btn layui-slider-input-btn"><a class="layui-icon" href="">&#xe619</a> </a>
+
+                    <a class="layui-btn layui-slider-input-btn"><a class="layui-icon" href="">&#xe61a</a> </a>
+                    <hr class="layui-bg-orange">
+
+                    <strong>
                         总共查找到 个结果
-                    </a>
+                    </strong>
                 </div>
             </fieldset>
+<!--开始数据api卡片分页-->
         <div class="layui-col-md12">
+            <div class="layui-row" id="pages">
 
+                <div class="layui-col-md3">
+                     <div class=" layui-card" style="margin: 3px 3px">
+                        <div class="layui-card-header layui-bg-green">数据标题</div>
+                        <div class="layui-card-body">数据简介</div>
+                    </div>
+                </div>
+
+                <div class="layui-col-md3">
+                    <div class=" layui-card" style="margin: 3px 3px">
+                        <div class="layui-card-header layui-bg-green">数据标题</div>
+                        <div class="layui-card-body">数据简介</div>
+                    </div>
+                </div>
+
+                <div class="layui-col-md3">
+                    <div class=" layui-card" style="margin: 3px 3px">
+                        <div class="layui-card-header layui-bg-green">数据标题</div>
+                        <div class="layui-card-body">数据简介</div>
+                    </div>
+                </div>
+
+                <div class="layui-col-md3">
+                    <div class=" layui-card" style="margin: 3px 3px">
+                        <div class="layui-card-header layui-bg-green">数据标题</div>
+                        <div class="layui-card-body">数据简介</div>
+                    </div>
+                </div>
+
+            </div>
+<!--            换页按钮 以及页码列表 跳转-->
+            <div class="layui-col-md5 layui-col-lg-offset6 layui-btn-group" style="margin-top: 3px">
+                <button class="layui-btn layui-btn-primary"><a class="layui-icon" href="">&#xe603</a> </button>
+                <button class="layui-btn layui-btn-primary"><a class="layui-icon" href="">&#xe602</a> </button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</div>
+        </div>
+    </div>
+</body>
+
+</div>
+        </div>
+    </div>
+</body>
+
+</div>
+        </div>
+    </div>
+</body>
+
+</div>
         </div>
     </div>
 </body>
